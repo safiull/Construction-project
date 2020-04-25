@@ -1,0 +1,438 @@
+/* ###### Main part ###### */
+#header {
+  background: #FFCB0F;
+  font-family: 'Baloo Bhaina 2', cursive; }
+  #header .fa {
+    color: #000; }
+  #header a {
+    color: #000; }
+  #header a:hover {
+    text-decoration: none; }
+
+nav {
+  background: #222533;
+  /* search start */
+  /* search end */ }
+  nav .search-box {
+    width: 52px;
+    height: 40px;
+    position: relative;
+    left: 49px; }
+  nav .input {
+    position: absolute;
+    top: -7px;
+    right: 48px;
+    box-sizing: border-box;
+    width: 0px;
+    height: 55px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #FFCB0F;
+    transition: all 0.8s ease; }
+  nav .bro-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #222533;
+    border-radius: 50%;
+    border: 2px solid #FFCB0F;
+    right: 37px;
+    top: -10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    color: #FFCB0F;
+    transition: all 0.8s ease; }
+  nav .bro-btn:hover {
+    color: #FFCB0F; }
+  nav .input.active {
+    width: 350px;
+    right: 100px; }
+  nav .bro-btn.animate {
+    transform: rotate(-360deg);
+    right: 100px; }
+  nav .collapse .navbar-nav .nav-item {
+    margin-left: 20px; }
+    nav .collapse .navbar-nav .nav-item a .fa {
+      color: #FFCB0F; }
+
+.carousel-item {
+  height: 600px; }
+
+.carousel-img-1 {
+  background: url("../img/slider1.png");
+  background-size: cover; }
+  .carousel-img-1 h3 {
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff; }
+  .carousel-img-1 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff; }
+  .carousel-img-1 p {
+    width: 88%;
+    margin-left: 7%; }
+  .carousel-img-1 span {
+    font-size: 70px;
+    color: #FFCB0F; }
+  .carousel-img-1 a {
+    color: #fff;
+    font-weight: bold; }
+
+.carousel-img-2 {
+  background: url("../img/slider2.jpg");
+  background-size: cover; }
+  .carousel-img-2 h3 {
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff; }
+  .carousel-img-2 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff; }
+  .carousel-img-2 p {
+    width: 88%;
+    margin-left: 7%; }
+  .carousel-img-2 span {
+    font-size: 70px;
+    color: #000; }
+  .carousel-img-2 a {
+    color: #fff;
+    font-weight: bold; }
+
+.carousel-img-3 {
+  background: url("../img/slider3.jpg");
+  background-size: cover; }
+  .carousel-img-3 .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 600px; }
+  .carousel-img-3 h3 {
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff; }
+  .carousel-img-3 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff; }
+  .carousel-img-3 p {
+    width: 88%;
+    margin-left: 7%; }
+  .carousel-img-3 span {
+    font-size: 70px;
+    color: #FFCB0F; }
+  .carousel-img-3 a {
+    color: #fff;
+    font-weight: bold; }
+
+.carousel-img-4 {
+  background: url("../img/slider4.jpg");
+  background-size: cover; }
+  .carousel-img-4 .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 600px; }
+  .carousel-img-4 h3 {
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #fff; }
+  .carousel-img-4 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff; }
+  .carousel-img-4 p {
+    width: 88%;
+    margin-left: 7%; }
+  .carousel-img-4 span {
+    font-size: 70px;
+    color: #416494; }
+  .carousel-img-4 a {
+    color: #fff;
+    font-weight: bold; }
+
+nav .navbar-collapse.collapsing ul, nav .navbar-collapse.show ul {
+  margin-top: 0rem; }
+
+#welcome-page h2 {
+  color: #FFCB0F;
+  font-family: 'Baloo Bhaina 2', cursive; }
+
+#welcome-page h4 {
+  font-family: 'Baloo Bhaina 2', cursive; }
+
+#welcome-page p {
+  font-family: normal;
+  font-size: 15px; }
+
+#welcome-page button {
+  color: #fff;
+  font-weight: bold; }
+
+#choose-us h3 {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+#choose-us h6 {
+  font-weight: bold;
+  font-family: 'Noto Sans TC', sans-serif; }
+
+#choose-us p {
+  font-family: normal; }
+
+#services-page .card {
+  transition: all .4s ease; }
+
+#services-page .card:hover {
+  background: #505958;
+  -webkit-box-shadow: -1px 9px 40px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px rgba(0, 0, 0, 0.75); }
+  #services-page .card:hover p {
+    color: #fff; }
+  #services-page .card:hover h5 {
+    color: #fff; }
+
+#services-page .inner {
+  overflow: hidden; }
+  #services-page .inner img {
+    transition: all 1.5s ease; }
+
+#services-page img:hover {
+  transform: scale(1.5); }
+
+#services-page h3 {
+  font-family: 'Oswald', sans-serif; }
+
+#services-page h5 {
+  font-family: 'Oswald', sans-serif;
+  color: #484848; }
+
+#services-page p {
+  font-family: normal;
+  color: #484848; }
+
+#services-page a {
+  color: #fff;
+  font-weight: bold; }
+
+#made-page {
+  background: url("../img/made-bg.png");
+  background-size: cover; }
+  #made-page .nav a:hover {
+    background: #343a40; }
+  #made-page .inner {
+    overflow: hidden; }
+    #made-page .inner img {
+      transition: all 1.5s ease; }
+  #made-page img:hover {
+    transform: scale(1.5); }
+  #made-page h3 {
+    font-family: 'Lexend Giga', sans-serif;
+    color: #fff; }
+  #made-page p {
+    color: #fff;
+    font-family: normal; }
+  #made-page a {
+    color: #fff;
+    font-family: 'Bitter', serif; }
+  #made-page img {
+    width: 300px;
+    height: 245px; }
+  #made-page .long img {
+    width: 566px;
+    height: 506px; }
+
+#review-page {
+  background: url("../img/review-bg.png");
+  background-size: cover;
+  z-index: 99999; }
+  #review-page p {
+    font-family: normal; }
+  #review-page #review-footer {
+    background: #ffda54; }
+    #review-page #review-footer input[type="submit"] {
+      color: #777d7c; }
+    #review-page #review-footer input[type="text"]:focus,
+    #review-page #review-footer input[type="email"]:focus,
+    #review-page #review-footer input[type="submit"]:focus {
+      box-shadow: inset 7px 7px 17px gray; }
+    #review-page #review-footer input[type="text"],
+    #review-page #review-footer input[type="email"],
+    #review-page #review-footer input[type="submit"] {
+      text-decoration: italic;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      box-shadow: -7px -7px 17px #f3f3f3, 7px 7px 17px gray; }
+    #review-page #review-footer input {
+      border-radius: 10px;
+      outline: none; }
+    #review-page #review-footer h3 {
+      color: #2f3240; }
+    #review-page #review-footer h1 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 35px;
+      color: #2f3240; }
+
+#map-and-testomonial .slick-prev:before {
+  margin-left: 4px;
+  color: #000;
+  background: #caebd2;
+  padding: 10px;
+  padding-right: 10px; }
+
+#map-and-testomonial .slick-next:before {
+  color: #000;
+  background: #caebd2;
+  padding: 10px; }
+
+#map-and-testomonial iframe {
+  border-radius: 7px;
+  border: 2px solid #2c9c92; }
+
+#map-and-testomonial .shadowa {
+  border-radius: 10px;
+  border: 10px solid #2c9c92;
+  box-shadow: 17px 17px 40px #2c9c92; }
+
+#footer {
+  background: url(../img/footer-bg.png);
+  background-size: cover; }
+  #footer h4 {
+    color: #fff; }
+  #footer p {
+    color: #fff; }
+  #footer img {
+    margin-left: 10px;
+    height: 35px; }
+  #footer .nav .img1 {
+    margin-left: 0px; }
+  #footer .logo {
+    margin-left: 0; }
+  #footer .list-group {
+    color: #fff; }
+    #footer .list-group a {
+      color: #fff;
+      font-size: 15px;
+      transition: all .3s ease; }
+    #footer .list-group a:hover {
+      text-decoration: none; }
+    #footer .list-group i {
+      font-size: 10px; }
+    #footer .list-group a:hover {
+      padding-left: 12px; }
+  #footer .contact .fa {
+    font-size: 20px; }
+  #footer .contact .address {
+    margin-left: 20px; }
+  #footer .contact .email {
+    margin-left: 15px; }
+  #footer .contact .number {
+    margin-left: 25px; }
+  #footer .contact .last-num {
+    margin-left: 39px; }
+
+#copyright {
+  background: #1A1C27; }
+  #copyright .modal label {
+    color: #000; }
+  #copyright p a {
+    color: green; }
+  #copyright p a:hover {
+    color: #fff; }
+
+@media (max-width: 1200px) {
+  #review-page #review-footer h3 {
+    font-size: 25px; }
+  #review-page #review-footer h1 {
+    font-size: 30px; } }
+
+@media (max-width: 1200px) {
+  #review-page #review-footer h3 {
+    font-size: 18px; }
+  #review-page #review-footer h1 {
+    font-size: 22px; } }
+
+@media (max-width: 1100px) {
+  .carousel-item h3 {
+    font-size: 23px; }
+  .carousel-item h1 {
+    font-size: 40px; }
+  .carousel-item span {
+    font-size: 45px; }
+  .carousel-item p {
+    font-size: 19px; } }
+
+@media (max-width: 991px) {
+  nav .collapse .navbar-nav .nav-item {
+    margin-left: 0px; }
+  .carousel-item {
+    height: 450px; }
+  .carousel-item h3 {
+    font-size: 20px; }
+  .carousel-item h1 {
+    font-size: 35px; }
+  .carousel-item span {
+    font-size: 40px; }
+  .carousel-item p {
+    font-size: 17px; } }
+
+@media (max-width: 630px) {
+  .carousel-item {
+    height: 450px; }
+  .carousel-item h3 {
+    font-size: 17px; }
+  .carousel-item h1 {
+    font-size: 22px; }
+  .carousel-item p {
+    width: 96%;
+    margin-left: 3%; }
+  .carousel-item span {
+    font-size: 25px; }
+  .carousel-item p {
+    font-size: 16px; } }
+
+@media (max-width: 574px) {
+  .carousel-item {
+    height: 380px; } }
+
+@media (max-width: 400px) {
+  .carousel-item {
+    height: 380px; }
+  .carousel-item h3 {
+    font-size: 16px; }
+  .carousel-item h1 {
+    font-size: 20px; }
+  .carousel-item p {
+    width: 96%;
+    margin-left: 3%; }
+  .carousel-item span {
+    font-size: 21px; }
+  .carousel-item p {
+    font-size: 14px; } }
+
+@media (max-width: 386px) {
+  .carousel-item .ml-sm-3 {
+    margin-top: 10px; } }
+
+@media (max-width: 332px) {
+  nav img {
+    width: 150px; }
+  .carousel-item {
+    overflow: hidden;
+    height: 350px; }
+    .carousel-item h3 {
+      font-size: 14px; }
+    .carousel-item span {
+      font-size: 19px; }
+    .carousel-item p {
+      font-size: 13px;
+      overflow: hidden; } }
+
+@media (max-width: 991px) {
+  .navbar .wrapper {
+    display: none; } }
